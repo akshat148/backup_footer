@@ -1,0 +1,125 @@
+/* Section M1*/
+.site-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+#posts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Section M1-head starts here*/
+.section-title {
+    background: linear-gradient(135deg, #a86e8e, #87610c);
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    height: fit-content;
+    width: calc(100% - 30px);
+    margin: 20px auto;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+/* Section M1-head ends here*/
+
+
+
+/* Section M1-body starts here */
+.post-outer-sec article {
+    width: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 991px) {
+    .post-outer-sec article {
+        width: 33.33%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .post-outer-sec article {
+        width: 50%;
+    }
+}
+
+.post-outer-sec article figure {
+    margin: 0;
+    box-shadow: none;
+    background: linear-gradient(#222, #222), linear-gradient(to right, #ca4747, #f4c922);
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat;
+    border: 5px solid transparent;
+}
+.post-outer-sec img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    aspect-ratio: auto 300 / 450;
+}
+
+.post-outer-sec article .entry-title {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.35;
+}
+.entry-title a {
+    text-decoration: none;
+    color: #fff;
+    padding-top: 10px;
+}
+.entry-title a:hover {
+    color: #c00;
+}
+
+/* Section M1-body ends here */
+
+
+
+/* Section M1-foot starts here */
+.pagination {
+    text-align: center;
+    width: 100%;
+}
+.nav-foot-links a {
+    text-decoration: none;
+}
+/* Dots-specific styles */
+.page-numbers.dots {
+    cursor: default; /* Makes the cursor neutral */
+    color: #aaa;     /* Neutral color */
+    pointer-events: none; /* Disable hover interaction */
+}
+/* Ensure dots do not change appearance on hover */
+.page-numbers.dots:hover {
+    background: none; /* No background change */
+    color: #aaa;      /* Maintain original color */
+    border-color: transparent; /* No border effect */
+}
+
+.current-pn {
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    background: linear-gradient(to left bottom, #c00 50%, #b80000 50%);
+}
+.page-numbers {
+    padding: 8px 15px;
+    min-width: 40px;
+    min-height: 40px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin: 3px;
+    vertical-align: top;
+    text-align: center;
+    border-color: rgba(255, 255, 255, .1);
+    color: #fff;
+    transition: background 0.2s, color 0.2s; /* Smooth transition for highlighting */
+}
+.page-numbers:hover {
+    border-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    background: linear-gradient(to left bottom, #c00 50%, #b80000 50%);
+}
+/* Section M1-foot ends here */
