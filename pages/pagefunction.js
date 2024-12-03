@@ -72,7 +72,7 @@ export function renderMovieDetails(var_1, var_2, var_3, var_4, var_5, var_6a,var
 
             <!-- Leave it as it is -->
             <p style="text-align: center;">
-                <a href="#">
+                <a href="index.html">
                     <button class="dwd-button">Download Now</button>
                 </a>
             </p>
@@ -84,7 +84,7 @@ export function renderMovieDetails(var_1, var_2, var_3, var_4, var_5, var_6a,var
 
             <!-- Leave it as it is -->
             <p style="text-align: center;">
-                <a href="#">
+                <a href="index.html">
                     <button class="dwd-button">Download Now</button>
                 </a>
             </p>
@@ -96,7 +96,7 @@ export function renderMovieDetails(var_1, var_2, var_3, var_4, var_5, var_6a,var
 
             <!-- Leave it as it is -->
             <p style="text-align: center;">
-                <a href="#">
+                <a href="index.html">
                     <button class="dwd-button">Download Now</button>
                 </a>
             </p>
