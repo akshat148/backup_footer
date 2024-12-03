@@ -36,7 +36,7 @@ export function renderPageLayout(var_0 = 'movie', var_1, var_2, var_3, var_4, va
             </p>
             <center>
                 <div class="add-banner">
-                    <img src="/images/Casino_Gift_2024_hindi.jpg" alt="" style="max-width: 100%; height: auto; margin-top: 20px; max-width: 570px;" width="500" height="200">
+                    <img src="/images/Casino_Gift_2024_hindi.jpg" alt="" style="max-width: 100%; height: auto; margin-top: 20px;" width="500" height="200">
                 </div>
             </center>
 
