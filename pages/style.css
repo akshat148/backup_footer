@@ -1,0 +1,292 @@
+/* Section M1 */
+.site-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar-left-outer {
+    width: calc(100% - 360px);
+    padding: 15px;
+}
+
+.sidebar-outer {
+    width: 360px;
+    background-color: rgba(255, 255, 255, .05);
+    padding: 15px;
+    padding-top: 40px;
+}
+@media only screen and (max-width: 991px) {
+    .sidebar-left-outer {
+        width: calc(100% - 280px);
+    }
+    .sidebar-outer {
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sidebar-left-outer {
+        width: 100%;
+    }
+    .sidebar-outer {
+        width: 100%;
+    }
+}
+
+
+
+/* Section M1-left(up) starts here */
+
+
+/* This part is for dynamically change pages */
+.sidebar-left-outer p {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+.sidebar-left-outer p a {
+    text-decoration: none;
+}
+.sidebar-left-outer p img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.sidebar-left-outer h5 {
+    font-weight: 500;
+    line-height: 1.35;
+    font-size: 18px;
+    margin-bottom: .42em;
+}
+.dwd-button {
+    color: #fff !important;
+    min-width: 210px !important;
+    background: linear-gradient(135deg, #67df03b8, #1356d5b8) !important;
+    margin-bottom: 15px !important;
+    padding: 12px 20px;
+    position: relative;
+    z-index: 0;
+    margin: 4px;
+    box-shadow: 0 5px 14px -7px #fff !important;
+    -webkit-transition: color .3s, background-color .3s, border-color .3s, opacity .3s, visibility .3s;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-sr {
+    padding: 12px 20px;
+    position: relative;
+    z-index: 0;
+    margin: 4px;
+    box-shadow: 0 5px 14px -7px #fff !important;
+    -webkit-transition: color .3s, background-color .3s, border-color .3s, opacity .3s, visibility .3s;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+/* This part is for dynamically change pages */
+
+
+
+
+/* Section M1-left(up) E */
+.comments-area {
+    margin-top: 20px;
+}
+.cr-title {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+}
+.cr-form p {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+.cr-f-comment textarea {
+    resize: vertical;
+    height: 110px;
+    margin-bottom: 0;
+}
+.cr-f-comment textarea, input {
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    color: #999;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .1);
+    display: block;
+    width: 100%;
+    padding: 11px 20px 10px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.cr-f-check {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cr-f-check input {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.cr-f-submit input {
+    width: auto;
+    padding: 9px 20px;
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    box-shadow: 0 5px 14px -7px #fff !important;
+    background: #ca5050;
+    border-radius: 0;
+    border: none;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cr-f-submit input:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Section M1-left(up) ends here */
+
+
+/* Section M1-right(down) starts here */
+
+.sidebar-outer section {
+    margin-bottom: 30px;
+}
+/* Section M1-right(down) A */
+.widget-search-l, .widget-block-h {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+.widget-search-l {
+    width: 100%;
+}
+.ws-i {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 100%;
+}
+.widget-search-i {
+    width: 100%;
+    padding-right: 90px;
+    appearance: none;
+    border: 1px solid #949494;
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 3rem;
+    padding: 8px;
+    text-decoration: unset !important;
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    color: #999;
+    background-color: transparent;
+    display: block;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.widget-search-b {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 13px 20px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    word-break: normal;
+    z-index: 0;
+    box-shadow: 0 5px 14px -7px #fff !important;
+    -webkit-transition: color .3s, background-color .3s, border-color .3s, opacity .3s, visibility .3s;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    border: none;
+}
+.widget-search-b:hover {
+    color: #fff;
+    background-color: #df133c;
+}
+
+/* Section M1-right(down) B */
+.wb-container {
+    box-sizing: border-box;
+}
+.wb-ul {
+    list-style: none;
+}
+.wb-li {
+    clear: both;
+    overflow-wrap: break-word;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 7px 0 0;
+    position: relative;
+}
+.wb-li-a {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 0;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 6px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    color: #fff;
+}
+.wb-li-a:hover {
+    color: #c00;
+}
+.wb-li-a:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 0px;
+    right: auto;
+    top: 50%;
+    background-color: #999;
+    margin-top: -4px;
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+}
+
+/* Section M1-right(down) */
